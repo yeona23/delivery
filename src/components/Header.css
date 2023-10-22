@@ -1,0 +1,34 @@
+.Header {
+  width: 100%;
+  border-bottom: 1px solid #434343;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+
+.shoppingList {
+  width: 200px;
+  border: 1px solid #434343;
+  padding: 10px 5px;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0.125rem 0.125rem #434343;
+}
+
+.shoppingList span {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: 3px solid #43434360;
+  background: salmon;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 25px;
+}
