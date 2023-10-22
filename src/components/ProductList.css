@@ -1,0 +1,52 @@
+.ProductList {
+  margin-top: 100px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductList .products {
+  margin: 0 auto;
+  border: 1px solid #434343;
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-sizing: border-box;
+}
+
+.ProductList .product_title-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.ProductList .btn-submit_amount {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 10px;
+  font-size: 14px;
+}
+
+.ProductList .btn-submit_amount input {
+  width: 45px;
+  margin-left: 10px;
+}
+
+.ProductList .btn-submit_amount input:focus {
+  outline: none;
+  border: 1px solid salmon;
+}
+
+.ProductList .btn-submit_amount button {
+  border: none;
+  background: salmon;
+  color: ivory;
+  padding: 5px 10px;
+  font-size: 12px;
+}
