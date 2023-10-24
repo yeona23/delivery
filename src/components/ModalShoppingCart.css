@@ -1,0 +1,53 @@
+.ModalShoppingCart {
+  width: 500px;
+  border: 1px solid #434343;
+  height: 45vh;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-list {
+  overflow-y: scroll;
+}
+
+.cart-list .cart-list_item {
+  border: 1px solid #434343;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.cart-list .cart-list_item-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.item_unit-cost {
+  display: flex;
+  align-items: center;
+}
+
+.cart-list .cart-list_item-title .item-amount {
+  border: 1px solid #434343;
+  width: 30px;
+  text-align: right;
+  padding: 0 3px;
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.total-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-container {
+  display: flex;
+  gap: 5px;
+}

@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <div className="Header">
       <h1>DeliveryApp</h1>
-      <div className="shoppingList">
+      <div className="shoppingCart">
         장바구니
         <span>0</span>
       </div>
