@@ -18,6 +18,10 @@
   box-shadow: 0.125rem 0.125rem #434343;
 }
 
+.shoppingCart:hover {
+  box-shadow: 0.025rem 0.025rem #434343;
+}
+
 .shoppingCart span {
   position: absolute;
   top: 50%;

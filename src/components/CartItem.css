@@ -1,18 +1,5 @@
-.ModalShoppingCart {
-  width: 500px;
-  border: 1px solid #434343;
-  height: 45vh;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
 .cart-list {
   overflow-y: scroll;
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
 }
 
 .cart-list .cart-list_item {
@@ -22,7 +9,6 @@
   justify-content: space-between;
   align-items: center;
   border-radius: 5px;
-  position: relative;
 }
 
 .cart-list .cart-list_item-title {
@@ -54,29 +40,4 @@
 .btn-container {
   display: flex;
   gap: 5px;
-}
-
-.btn_delete {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-}
-
-.btn_delete span {
-  width: 15px;
-  height: 1px;
-  background: #434343;
-  position: absolute;
-  display: block;
-}
-
-.btn_delete span:first-child {
-  transform: rotate(45deg);
-}
-
-.btn_delete span:last-child {
-  transform: rotate(-45deg);
 }
