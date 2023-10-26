@@ -50,13 +50,20 @@ function App() {
   const openModal = () => {
     setIsOpenedModal(true);
   };
-  cosnr;
+  const closeModal = () => {
+    setIsOpenedModal(false);
+  };
 
   return (
     <div className="App">
-      <Header />
+      <Header openModal={openModal} cartItem={cartItem} />
       <ProductList product={product} onSubmit={handleSubmit} />
-      <ModalShoppingCart cartItem={cartItem} onDelete={onDelete} />
+      <ModalShoppingCart
+        cartItem={cartItem}
+        onDelete={onDelete}
+        isOpened={isOpenedModal}
+        closeModal={closeModal}
+      />
     </div>
   );
 }

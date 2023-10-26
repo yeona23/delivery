@@ -1,13 +1,15 @@
 import React from "react";
 import "./Header.css";
 
-const Header = () => {
+const Header = ({ openModal, cartItem }) => {
+  const cartItemCount = cartItem.length;
+
   return (
     <div className="Header">
       <h1>DeliveryApp</h1>
-      <div className="shoppingCart">
+      <div className="shoppingCart" onClick={openModal}>
         장바구니
-        <span>0</span>
+        <span>{cartItemCount}</span>
       </div>
     </div>
   );
